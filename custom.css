@@ -1,0 +1,608 @@
+@media (max-width:568px){
+
+body{
+  min-width: 585px;
+}
+
+.title{
+  padding-left: 0px;
+}
+
+.text{
+  padding-left: 0px;
+}
+
+.bottomwidth{
+  width: 86% !important;
+}
+
+.icon {
+    width: 41px !important;
+}
+
+.centerimageperson {
+    width: 50% !important;
+}
+
+.shanaiavatar{
+  width:19% !important;
+}
+
+}
+
+@media (min-width:768px){
+  
+.pdtop70desktopics{
+padding-top: 70px;
+}
+
+  .hide .displaycontent1{
+    display:none;
+  }
+
+  .hide7 .slideshow-container{
+    display:none;
+  }
+
+  .hide7 .dots{
+    display:none;
+  }
+
+
+}
+
+@media (max-width:768px){
+
+.backgroundbottom2 {
+    right: 0 !important;
+    top: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.backgroundtop {
+    background-image: url(images/bg-tablet-pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -1%;
+    top: -7%;
+   width: 96% !important;
+    height: 26% !important;
+    z-index: -1;
+}
+
+.margin-left3{
+  margin-left: 0% !important;
+}
+
+.width50{
+  width:100% !important;
+}
+
+.title2{
+  width:100%;
+  background-color:#FFEBEB;
+}
+
+.titledisplay {
+  padding-left: 0% !important;
+}
+
+.inputemail {
+width:65% !important;
+}
+
+
+  .hide2 .displaycontent3{
+    display:none;
+  }
+
+.titledisplay{
+    padding-left: 30%;
+}
+
+.displaycontent1{
+  display:block !important;
+}
+
+.title{
+  text-align: center;
+}
+
+.text{
+  text-align: center;
+}
+
+.getstartedadjust{
+    position: absolute;
+    left: 46%;
+}
+
+.buttoncotainer{
+  padding-left: 59px;
+  padding-top: 15px;
+  position:relative;
+  padding-bottom: 46px;
+}
+
+
+
+}
+
+@media (min-width:1025px){
+
+.modallinks{
+  display:none;
+}
+
+.hide4 .bottomtitlebutton2{
+display:none;
+}
+
+.hide4 .background2{
+  display:none;
+}
+
+.hide6 .linkscontainer2{
+  display:none;
+}
+
+.navbar .objright2{
+  display:none;
+}
+
+}
+
+
+@media (max-width:1024px){
+
+.navmiddlepos .links{
+  display:none;
+}
+
+.navbar .objright{
+  display:none;
+}
+
+.hide5 .linkscontainer{
+  display:none;
+}
+
+.hide3 .bottomtitlebutton{
+ display: none;
+ }
+
+.hide3 .background{
+  display:none;
+}
+
+.center-content{
+  max-width: none !important;
+}
+
+
+  }
+
+/*  CSS DO CARROSSEL*/
+
+ * {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  position: relative;
+  margin: auto;
+  width:100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  color:black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: black;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: orange;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* CSS DO CARROSSEL - FIM */
+body{
+  font-family: 'Be Vietnam', sans-serif;
+  font-size:16px;
+}
+
+.displaycontent3{
+    display:flex;
+  }
+
+.bottomwidth{
+  width: 90%;
+}
+
+.buttoncotainer{
+  padding-left: 59px;
+  padding-top: 15px;
+
+}
+
+.navbar{
+  list-style-type: none;
+  width:100%;
+  padding: 30px;
+  position:relative;
+}
+
+.navbar li{
+  display:inline;
+}
+
+
+.links{
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.links a:visited{
+    color:black;
+}
+
+.links a:link{
+   text-decoration: none;
+ }
+
+
+.navmiddlepos{
+   position:absolute;
+ right: 33%;
+    top: 34%;
+}
+
+.objright{
+float:right;
+padding-right: 0%;
+margin-top: -10px;
+}
+
+.objright2{
+float:right;
+padding-right: 0%;
+margin-top: -10px;
+}
+
+.floatright{
+  float: right;
+  margin-right: 70px;
+  margin-top: -75px;
+}
+
+.getstarted{
+  background-color:hsl(12, 88%, 59%);
+  border-color: hsl(12, 88%, 59%);
+  color:white;
+    border-radius: 25px;
+  width: 134px;
+    height: 43px;
+}
+
+.numbertitle{
+  background-color:hsl(12, 88%, 59%);
+  border-color: hsl(12, 88%, 59%);
+  color:white;
+  border-radius: 25px;
+  width: 61px;
+  height: 32px;
+  text-align: center;
+}
+
+.center-content{
+  max-width: 1440px;
+  margin:auto;
+}
+
+.title{
+  font-size: 45px;
+  padding-left: 59px;
+  font-weight:700;
+  color:hsl(233, 12%, 13%);
+  min-width: 361px;
+}
+
+.text{
+  font-size: 16px;
+  padding-left: 62px;
+  color:hsl(227, 12%, 61%);
+  padding-top: 15px;
+}
+
+.imgresponsive{
+  width:100%;
+  height:auto;
+}
+
+.displaycontent1{
+  display:flex;
+}
+
+.titledisplay{
+  display:flex;
+}
+
+.title2{
+    padding-top: 2px;
+    padding-left: 13px;
+    color: hsl(233, 12%, 13%);
+     font-weight:700;
+      font-size: 16px;
+}
+
+.text2{
+    font-size: 16px;
+    color: hsl(227, 12%, 61%);
+    padding-top: 15px;
+}
+
+.nametitle{
+  text-align: center;
+}
+
+.descinfo{
+  text-align: center;
+}
+
+.centerimageperson{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.centerimageperson2{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.title3{
+    font-size: 45px;
+    padding-left: 59px;
+    padding-top: 50px;
+    font-weight: 700;
+    color:white;
+    min-width: 361px;
+}
+
+.title4{
+    font-size: 45px;
+    padding-top: 50px;
+    font-weight: 700;
+    color:white;
+    min-width: 361px;
+    text-align: center;
+}
+
+
+.getstarted2{
+  background-color:white;
+  border-color: hsl(12, 88%, 59%);
+  color:hsl(12, 88%, 59%);
+    border-radius: 25px;
+  width: 134px;
+    height: 43px;
+    font-weight: 700;
+}
+
+.bottomtitlebutton li{
+
+display: inline;
+
+}
+
+.bottomtitlebutton2 li{
+
+display: inline;
+
+}
+
+.linksfooter{
+color:white;
+display:grid;
+padding-bottom: 10px;
+}
+
+.displaycontent2{
+display:flex;
+}
+
+.icons li{
+
+display: inline;
+
+}
+
+.gobutton{
+    background-color: hsl(12, 88%, 59%);
+    border-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 25px;
+    width: 61px;
+   height: 47px;
+    font-weight: 700;
+}
+
+.inputemail{
+border-radius: 20px;
+height: 40px;
+}
+
+.iconspad{
+  padding-top: 53px;
+}
+
+.icon{
+      width: 44px;
+}
+
+.modallinks{
+  display:none;
+  list-style-type: none;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.0);
+}
+
+.linksstyle{
+  font-size:18px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
+#closeicon{
+  display:none;
+}
+
+.backgroundcustom{
+
+background-color: red;
+
+}
+
+.getstartedbuttonposition{
+  position:absolute;
+  right: 0;
+  left:0;
+  margin:auto;
+}
+
+.pdtop70desk{
+padding-top: 70px;
+}
+
+.pdtop70desktopics{
+padding-top: 70px;
+}
+
+.width50{
+  width:50%;
+}
+
+.backgroundtop{
+  background-image: url("bg-simplify-section-desktop.svg");
+  width:100%;
+  height:500px;
+}
+
+.margin-left3{
+  margin-left: 3%;
+}
+
+.bottombackground{
+  background-image: url('images/bg-simplify-section-desktop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 223px;
+}
+
+.bottombackgroundmobile{
+  background-image: url('images/bg-simplify-section-mobile.png') !important;
+  background-repeat: no-repeat !important;
+  height: 251px !important;
+}
+
+.backgroundtop {
+    background-image: url(images/bg-tablet-pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -4%;
+    top: -7%;
+    width: 59%;
+    height: 35%;
+    z-index: -1;
+}
+
+.backgroundbottom2 {
+    background-image: url(images/bg-tablet-pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 81%;
+    top: -82%;
+    width: 43rem;
+    height: 33rem;
+    z-index: -1;
+}
+
+.shanaiavatar{
+  width:12%;
+}
